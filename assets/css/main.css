@@ -3586,6 +3586,7 @@ mark,
 }
 
 .hero .swiper-pagination-custom {
+  display: none;
   position: absolute;
   left: 0;
   bottom: 20px;
