@@ -2441,7 +2441,12 @@ mark,
     text-align: center;
   }
 }
-
+@media (max-width: 767px) {
+  .swiper-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .team__img {
   overflow: hidden;
   display: inline-block;
