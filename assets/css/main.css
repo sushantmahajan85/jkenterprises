@@ -1620,12 +1620,12 @@ mark,
 
 /* 11. quote_02
 --------------------------------------------------------------------------------*/
-.fa-angle-left {
+/* .fa-angle-left {
   display: none;
 }
 .fa-angle-right {
   display: none;
-}
+} */
 .quote-02 {
   max-width: 300px;
   background-color: #f1cc4a;
@@ -2442,9 +2442,8 @@ mark,
   }
 }
 @media (max-width: 767px) {
-  .swiper-wrapper {
-    display: flex;
-    flex-direction: column;
+  .hero__wrapper {
+    height: 500px;
   }
 }
 .team__img {
@@ -3582,16 +3581,16 @@ mark,
 
 .hero .swiper-button-custom .swiper-button-prev-custom {
   left: 10px;
-  display: none;
+  /* display: none; */
 }
 
 .hero .swiper-button-custom .swiper-button-next-custom {
   right: 10px;
-  display: none;
+  /* display: none; */
 }
 
 .hero .swiper-pagination-custom {
-  display: none;
+  /* display: none; */
   position: absolute;
   left: 0;
   bottom: 20px;
@@ -3629,7 +3628,7 @@ mark,
 
 @media (min-width: 1200px) {
   .hero__title {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
@@ -3671,7 +3670,7 @@ mark,
   }
 
   .hero .swiper-pagination-custom {
-    display: none;
+    /* display: none; */
   }
 }
 
